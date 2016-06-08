@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Cooper Hewitt Light';
+  src: url('CooperHewitt-Light.woff');
+}
+
+body {
+  background: linear-gradient(-45deg, #58fff9, #d766e4);
+  background-attachment: fixed;
+  font-family: 'Cooper Hewitt Light';
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 2.9rem;
+  font-weight: normal;
+  opacity: 0.1;
+  text-transform: uppercase;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+}
+
+h1:hover {
+  opacity: 0.6;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+}
+
+p {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.25);
+  line-height: 1.8rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  opacity: 0.4;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  text-align: center;
+}
+
+p:hover {
+  color: #111;
+  opacity: 1;
+  transition: all 1s;
+  -webkit-transition: al 1s;
+}
